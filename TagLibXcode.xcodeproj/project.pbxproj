@@ -1371,9 +1371,10 @@
 		53D95092253BD78400006D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7596YH3S97;
+				DEVELOPMENT_TEAM = 66WHF7D79J;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1396,7 +1397,7 @@
 					"-Wno-unreachable-code-loop-increment",
 					"-Wno-quoted-include-in-framework-header",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.TagLibXcode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchao.TagLibXcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1406,9 +1407,10 @@
 		53D95093253BD78400006D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7596YH3S97;
+				DEVELOPMENT_TEAM = 66WHF7D79J;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1431,7 +1433,7 @@
 					"-Wno-unreachable-code-loop-increment",
 					"-Wno-quoted-include-in-framework-header",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.TagLibXcode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchao.TagLibXcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
