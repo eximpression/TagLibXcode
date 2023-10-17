@@ -1338,6 +1338,7 @@
 					"-Wno-unreachable-code-loop-increment",
 					"-Wno-quoted-include-in-framework-header",
 				);
+				OTHER_LDFLAGS = "-Wl,-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchao.TagLibXcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1496,6 +1497,7 @@
 					"-Wno-unreachable-code-loop-increment",
 					"-Wno-quoted-include-in-framework-header",
 				);
+				OTHER_LDFLAGS = "-Wl,-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchao.TagLibXcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1536,6 +1538,7 @@
 					"-Wno-unreachable-code-loop-increment",
 					"-Wno-quoted-include-in-framework-header",
 				);
+				OTHER_LDFLAGS = "-Wl,-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchao.TagLibXcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
